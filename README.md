@@ -1,7 +1,3 @@
-match-lite
-==========
-jQuery style object selection and manipulation.
-
 What Is This?
 =============
 Select from, filter, and mutate your JavaScript objects using jQuery-like selection
