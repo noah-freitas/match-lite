@@ -25,7 +25,7 @@ It will get better.
 // Nested property selection
 var myObject = {
 	anotherObject: {
-		name: 'Another Object
+		name: 'Another Object'
 	}
 };
 var nameProp = m(myObject)('name');
