@@ -110,7 +110,7 @@ Guards
 ======
 ```javascript
 // Select the object whose name property equals "Peter" and return an
-// object containing its name, powers, and address properties. 
+// object containing its name, phone, and address properties. 
 }
-var mutant = m(jsonData)('{ name = "Peter", powers, address }');
+var person = m(jsonData)('{ name= "Peter", phone, address }');
 ```
