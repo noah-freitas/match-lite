@@ -112,5 +112,5 @@ Guards
 // Select the object whose name property equals "Peter" and return an
 // object containing its name, powers, and address properties. 
 }
-var mutant = m(jsonData)('{ name = "Peter", powers, address } }');
+var mutant = m(jsonData)('{ name = "Peter", powers, address }');
 ```
