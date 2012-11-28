@@ -105,3 +105,12 @@ if it does not contain all the selected properties.  `{{}}` (double curly braces
 will only include an object in the selection if all the selected properties are
 not `undefined`.  Using double curly braces in the selection above would have
 omitted `{name: 'Another Object'}` from the selection.
+
+Guards
+======
+```javascript
+// Select the object whose name property equals "Peter" and return an
+// object containing its name, phone, and address properties. 
+}
+var person = m(jsonData)('{ name= "Peter", phone, address }');
+```
